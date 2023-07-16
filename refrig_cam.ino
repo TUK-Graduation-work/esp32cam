@@ -113,7 +113,7 @@ const char *htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
       </tr> 
       <tr/><tr/>
       <tr>
-        <td style="text-align:left"><b>Pan:</b></td>
+        <td style="text-align:left"><b>UP&DOWN:</b></td>
         <td colspan=2>
          <div class="slidecontainer">
             <input type="range" min="0" max="180" value="90" class="slider" id="Pan" oninput='sendButtonInput("Pan",value)'>
@@ -122,7 +122,7 @@ const char *htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
       </tr> 
       <tr/><tr/>       
       <tr>
-        <td style="text-align:left"><b>Tilt:</b></td>
+        <td style="text-align:left"><b>LEFT&RIGHT:</b></td>
         <td colspan=2>
           <div class="slidecontainer">
             <input type="range" min="0" max="180" value="90" class="slider" id="Tilt" oninput='sendButtonInput("Tilt",value)'>
@@ -131,7 +131,7 @@ const char *htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
       </tr>
       <tr/><tr/>       
       <tr>
-        <td style="text-align:left"><b>Light:</b></td>
+        <td style="text-align:left"><b>LIGHT:</b></td>
         <td colspan=2>
           <div class="slidecontainer">
             <input type="range" min="0" max="255" value="0" class="slider" id="Light" oninput='sendButtonInput("Light",value)'>
